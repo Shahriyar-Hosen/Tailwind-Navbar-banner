@@ -21,7 +21,7 @@
           <div class="fixed right-3 top-1/4 z-40 flex items-center">
             <div class="relative">
               <button
-                class="p-3 bg-white hover:bg-[#f1f5f9] dark:bg-[#0891b2] dark:hover:bg-[#0E7490] rounded-xl shadow-lg border border-gray-200 dark:border-[#0891b2] z-10 focus:outline-none"
+                class="p-3 bg-white hover:bg-[#f1f5f9] dark:bg-[#0891b2] dark:hover:bg-[#0E7490] rounded-xl shadow-lg border border-gray-200 dark:border-[#0891b2] z-10"
               >
                 <!-- setting Logo -->
                 <svg
@@ -51,9 +51,7 @@
                 class="hidden md:flex justify-start flex-1 items-center space-x-3 sm:space-x-8 lg:space-x-10"
               >
                 <!-- Logo -->
-                <a
-                  class="inline-block text-[#0891b2] focus:outline-none focus:ring-0 w-24"
-                  href=""
+                <a class="inline-block text-[#0891b2] w-24" href=""
                   ><svg
                     class="w-full hidden dark:block"
                     viewBox="0 0 65 32"
@@ -113,7 +111,7 @@
                 <div class="hidden lg:block">
                   <div class="relative">
                     <button
-                      class="text-opacity-90 group py-2 rounded-md text-sm sm:text-[#0f172a] dark:sm:text-[#e2e8f0] font-medium hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+                      class="text-opacity-90 group py-2 rounded-md text-sm sm:text-[#0f172a] dark:sm:text-[#e2e8f0] font-medium hover:text-opacity-100"
                     >
                       <div
                         class="hidden sm:inline-flex items-center"
@@ -150,7 +148,7 @@
                   <!-- Currency btn -->
                   <div class="relative">
                     <button
-                      class="text-opacity-80 group px-3 py-1.5 border-gray-300 hover:border-gray-400 dark:border-gray-700 rounded-full inline-flex items-center text-sm text-gray-700 dark:text-gray-200 font-medium hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+                      class="text-opacity-80 group px-3 py-1.5 border-gray-300 hover:border-gray-400 dark:border-gray-700 rounded-full inline-flex items-center text-sm text-gray-700 dark:text-gray-200 font-medium hover:text-opacity-100"
                     >
                       <!-- currency svg -->
                       <svg
@@ -192,7 +190,7 @@
                   <!-- Language -->
                   <div class="relative">
                     <button
-                      class="text-opacity-80 group px-3 py-1.5 border-gray-300 hover:border-gray-400 dark:border-gray-700 rounded-full inline-flex items-center text-sm text-gray-700 dark:text-gray-300 font-medium hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+                      class="text-opacity-80 group px-3 py-1.5 border-gray-300 hover:border-gray-400 dark:border-gray-700 rounded-full inline-flex items-center text-sm text-gray-700 dark:text-gray-300 font-medium hover:text-opacity-100"
                     >
                       <!-- Language svg -->
                       <svg
@@ -233,16 +231,17 @@
 
                   <!-- List your property -->
                   <a
-                    class="text-opacity-90 group px-4 py-2 border border-gray-300 hover:border-gray-400 dark:border-gray-700 rounded-full inline-flex items-center text-sm text-gray-700 dark:text-gray-300 font-medium hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+                    class="text-opacity-90 group px-4 py-2 border border-gray-300 hover:border-gray-400 dark:border-gray-700 rounded-full inline-flex items-center text-sm text-gray-700 dark:text-gray-300 font-medium hover:text-opacity-100"
                     href=""
                     >List your property</a
                   >
 
                   <!-- Dark mode -->
                   <button
-                    class="text-2xl md:text-3xl w-12 h-12 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none flex items-center justify-center"
+                    class="text-2xl md:text-3xl w-12 h-12 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 flex items-center justify-center"
                   >
-                    <span class="sr-only">Enable dark mode</span>
+                    <!-- Enable dark mode -->
+                    <span class="sr-only"></span>
 
                     <!-- Dark mode svg -->
                     <svg
@@ -263,7 +262,7 @@
                     <div class="-ml-2 xl:-ml-1">
                       <div class="relative">
                         <button
-                          class="text-opacity-90 group p-3 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full inline-flex items-center text-[#0f172a] dark:text-[#e2e8f0] font-medium hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 relative"
+                          class="text-opacity-90 group p-3 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full inline-flex items-center text-[#0f172a] dark:text-[#e2e8f0] font-medium hover:text-opacity-100 relative"
                         >
                           <span
                             class="w-2 h-2 bg-blue-500 absolute top-2 right-2 rounded-full"
@@ -292,16 +291,14 @@
                   <!-- Profile picture -->
 
                   <div class="relative">
-                    <button
-                      class="inline-flex items-center focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
-                    >
+                    <button class="inline-flex items-center">
                       <div
                         class="relative flex-shrink-0 inline-flex items-center justify-center text-neutral-100 uppercase font-semibold shadow-inner rounded-full w-8 h-8 sm:w-9 sm:h-9 ring-1 ring-white dark:ring-neutral-900"
                       >
                         <img
-                          class="absolute inset-0 w-full h-full object-cover rounded-full"
+                          class="absolute inset-0 w-full h-full rounded-full"
                           src="https://placeimg.com/192/192/profile"
-                          alt="John Doe"
+                          alt=""
                         />
                       </div>
                     </button>
@@ -313,7 +310,7 @@
                   <!-- Notify section -->
                   <div class="relative">
                     <button
-                      class="text-opacity-90 group p-3 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full inline-flex items-center text-[#0f172a] dark:text-[#e2e8f0] font-medium hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 relative"
+                      class="text-opacity-90 group p-3 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full inline-flex items-center text-[#0f172a] dark:text-[#e2e8f0] font-medium hover:text-opacity-100 relative"
                     >
                       <span
                         class="w-2 h-2 bg-blue-500 absolute top-2 right-2 rounded-full"
@@ -339,14 +336,12 @@
 
                   <!-- Profile picture -->
                   <div class="relative">
-                    <button
-                      class="inline-flex items-center focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
-                    >
+                    <button class="inline-flex items-center">
                       <div
                         class="relative flex-shrink-0 inline-flex items-center justify-center text-neutral-100 uppercase font-semibold shadow-inner rounded-full w-8 h-8 sm:w-9 sm:h-9 ring-1 ring-white dark:ring-neutral-900"
                       >
                         <img
-                          class="absolute inset-0 w-full h-full object-cover rounded-full"
+                          class="absolute inset-0 w-full h-full rounded-full"
                           src="https://placeimg.com/192/192/profile"
                           alt="Profile"
                         />
@@ -356,7 +351,7 @@
 
                   <!-- Three dote menu -->
                   <button
-                    class="focus:outline-none flex items-center justify-center p-2.5 rounded-lg text-gray-700 dark:text-gray-300"
+                    class="flex items-center justify-center p-2.5 rounded-lg text-gray-700 dark:text-gray-300"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -380,39 +375,39 @@
     </div>
 
     <!-- --------------------------------------------- -->
-<div class="max-w-screen-xl mx-auto">
-    <div class="container relative space-y-24 mb-24 lg:space-y-28 lg:mb-28">
-      <!--  Cover Img -->
-      <div class="relative">
-        <div class="absolute inset-y-0 w-5/6 xl:w-3/4 right-0 flex-grow">
-          <img
-            class="absolute inset-0 object-right-top
-            w-full h-full"
-            src="https://chisnghiax.com/chisfis/static/media/hero-right-3.25e989ed2b6ef0cfb25e.png"
-            alt=""
-          />
-        </div>
-
-        <!-- Banner Text -->
-        <div class="relative py-14 lg:py-20">
-          <div class="relative inline-flex">
-            <div
-              class="w-screen right-20 md:right-52 inset-y-0 absolute bg-[#06b6d4]"
-            ></div>
-            <div
-              class="relative max-w-3xl inline-flex flex-shrink-0 flex-col items-start py-16 sm:py-20 lg:py-24 space-y-8 sm:space-y-10 text-white "
-            >
-              <h2 class="font-semibold text-4xl md:text-5xl xl:text-7xl">
-                Find Your Best <br />
-                Smart Real Estate
-              </h2>
-            </div>
+    <div class="max-w-screen-xl mx-auto">
+      <div class="container relative space-y-24 mb-24 lg:space-y-28 lg:mb-28">
+        <!--  Cover Img -->
+        <div class="relative">
+          <div class="absolute inset-y-0 w-5/6 xl:w-3/4 right-0 flex-grow">
+            <img
+              class="absolute inset-0 object-right-top w-full h-full"
+              src="https://chisnghiax.com/chisfis/static/media/hero-right-3.25e989ed2b6ef0cfb25e.png"
+              alt=""
+            />
           </div>
-          
+
+          <!-- Banner Text -->
+          <div class="relative py-14 lg:py-20">
+            <div class="relative inline-flex">
+              <div
+                class="w-screen right-20 md:right-52 inset-y-0 absolute bg-[#06b6d4]"
+              ></div>
+              <div
+                class="relative max-w-3xl inline-flex flex-shrink-0 flex-col items-start py-16 sm:py-20 lg:py-24 space-y-8 sm:space-y-10 text-white"
+              >
+                <h2 class="font-semibold text-4xl md:text-5xl xl:text-7xl">
+                  Find Your Best <br />
+                  Smart Real Estate
+                </h2>
+              </div>
+            </div>
+
+            
+          </div>
         </div>
       </div>
     </div>
-  </div>
     <!-- script -->
     <script src="https://cdn.tailwindcss.com"></script>
   </body>
